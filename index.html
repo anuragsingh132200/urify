@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        background-color: #fff;
+      }
+      .header {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        padding-top: 30px;
+        font-size: large;
+        font-family: sans-serif;
+        align-items: center;
+      }
+      .navmain {
+        display: flex;
+        width: 40vw;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 600;
+      }
+      .home {
+        color: #ff5555;
+      }
+      .download {
+        color: #fff;
+        background-color: black;
+        padding: 15px 30px;
+      }
+      .pkl,
+      .pkl2 {
+        background-image: url(./assets/ellipse.png);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .pkl2 {
+        background-position: right;
+      }
+      .pkl2 div {
+        background: transparent;
+      }
+      .x:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navmain">
+        <img src="./assets/icon.png" />
+        <div class="home nav md:block hidden x">Home</div>
+        <div class="nav md:block hidden x">About us</div>
+        <div class="nav lg:block hidden x">Pricing</div>
+        <div class="nav lg:block hidden x">Features</div>
+      </div>
+      <div class="nav download">Download</div>
+    </div>
+
+    <div class="hero flex max-w-[95vw] pl-8 md:pl-32">
+      <div class="flex flex-col pt-32">
+        <div class="text-5xl font-extrabold">
+          Make The Best <br />
+          Financial Decisions
+        </div>
+        <div class="m-4 font-extralight">
+          Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+          faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+        </div>
+        <div class="flex justify-between">
+          <div
+            class="bg-black text-white pt-3 pb-3 p-6 flex items-center justify-between"
+          >
+            Get Started
+            <img class="ml-2 bg-transparent w-8 h-2" src="./assets/arrow.png" />
+          </div>
+          <div class="pt-3 pb-3 p-6 flex x items-center justify-between">
+            <img src="./assets/play.png" class="mr-2" />Watch Video
+          </div>
+        </div>
+        <img class="md:w-[32vw]" src="./assets/Group 35924.png" />
+      </div>
+      <div><img class="md:block hidden" src="./assets/3phone.png" /></div>
+    </div>
+    <div class="lg:p-1 m-2  md:m-16 flex">
+      <div>
+        <img class="pkl lg:block hidden" src="./assets/secondphone.png" />
+      </div>
+      <div class="mt-32">
+        <div class="text-[#FF5555] font-semibold text-xl">FEATURES</div>
+        <div class="font-extrabold text-3xl">Uifry Premium</div>
+        <div class="font-bold flex mt-4 mb-4">
+          <img class="mr-2" src="./assets/staricon.png" />Budgeting Intervals
+        </div>
+        <div class="font-extralight">
+          Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+          faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+        </div>
+        <div class="font-bold flex mt-4 mb-4">
+          <img class="mr-2" src="./assets/staricon2.png" />Budgeting Intervals
+        </div>
+        <div class="font-extralight">
+          Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+          faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+        </div>
+        <div class="font-bold flex mt-4 mb-4">
+          <img class="mr-2" src="./assets/staricon3.png" />Budgeting Intervals
+        </div>
+        <div class="font-extralight">
+          Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+          faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+        </div>
+      </div>
+    </div>
+    <div class="flex m-2 md:pl-32">
+      <div class="md:w-[40vw] w-[90vw] mt-64">
+        <div class="font-extrabold text-4xl">Why Choosing Urify ?</div>
+        <div class="font-bold text-2xl flex mt-4 mb-4 items-center m-4">
+          <img class="mr-2" src="./assets/notification.png" />Clever
+          Notifications
+        </div>
+        <div class="font-extralight">
+          Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et
+          blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit
+          nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien,
+          suspendisse aliquam.
+        </div>
+      </div>
+      <div>
+        <img class="pkl lg:block hidden" src="./assets/secondphone.png" />
+      </div>
+    </div>
+    <div class="flex m-2 md:pl-32 ">
+      <div>
+        <img class="pkl lg:block hidden" src="./assets/secondphone.png" />
+      </div>
+      <div class="md:w-[40vw] w-[90vw] mb-32 mt-32 md:mt-64">
+        <div class="font-bold text-2xl flex mt-4 mb-4 items-center m-4">
+          <img class="mr-2" src="./assets/notification.png" />Fully Customizable
+        </div>
+        <div class="font-extralight">
+          Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et
+          blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit
+          nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien,
+          suspendisse aliquam.
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center items-center flex-col">
+      <div class="text-xl">Testimonal</div>
+      <div class="font-extrabold text-5xl">What Our Users Say About Us?</div>
+    </div>
+    <div class="flex flex-col md:flex-row m-2 md:pl-32">
+      <div>
+        <img  src="./assets/testimonal.png" />
+      </div>
+      <div class="mt-64 w-full md:w-[30vw]">
+        <div class="font-extrabold text-2xl flex mt-4 mb-4 items-center m-4">
+          The Best Financial Accounting <br />App Ever!
+        </div>
+        <div class="font-extralight">
+          Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et
+          blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit
+          nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien,
+          suspendisse aliquam.
+        </div>
+        <img src="./assets/avatar.png" class="m-4" />
+        <div class="font-extrabold m-4">NICK JONAS</div>
+      </div>
+    </div>
+
+    <div class="pl-16 lg:pl-80 text-[#FF5555] font-semibold">FAQs</div>
+    <div class="pl-16 lg:pl-80 font-extrabold text-5xl">
+      Frequently Asked <br />
+      Questions
+    </div>
+
+    <div class="pl-16 lg:pl-32 lg:flex justify-center pl-16">
+      <div
+        class="flex flex-col lg:max-w-[30vw] font-bold p-4 m-2 rounded-lg bg-[#FF5555] text-white"
+      >
+        <div class="text-2xl bg-transparent">
+          The Best Financial Accounting App Ever!
+        </div>
+        <div class="font-light bg-transparent">
+          “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris.
+        </div>
+      </div>
+      <div class="flex flex-col lg:max-w-[30vw] font-bold p-4 m-2 rounded-lg">
+        <div class="text-2xl bg-transparent">
+          The Best Financial Accounting App Ever!
+        </div>
+        <div class="font-light bg-transparent">
+          “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris.
+        </div>
+      </div>
+    </div>
+    <div class="pl-16 lg:pl-32 lg:flex justify-center pl-16">
+      <div
+        class="flex flex-col lg:max-w-[30vw] font-bold p-4 m-2 rounded-lg bg-[#FF5555] text-white"
+      >
+        <div class="text-2xl bg-transparent">
+          The Best Financial Accounting App Ever!
+        </div>
+        <div class="font-light bg-transparent">
+          “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris.
+        </div>
+      </div>
+      <div class="flex flex-col lg:max-w-[30vw] font-bold p-4 m-2 rounded-lg">
+        <div class="text-2xl bg-transparent">
+          The Best Financial Accounting App Ever!
+        </div>
+        <div class="font-light bg-transparent">
+          “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris.
+        </div>
+      </div>
+    </div>
+    <div class="pl-16 lg:pl-32 lg:flex justify-center pl-16">
+      <div
+        class="flex flex-col lg:max-w-[30vw] font-bold p-4 m-2 rounded-lg bg-[#FF5555] text-white"
+      >
+        <div class="text-2xl bg-transparent">
+          The Best Financial Accounting App Ever!
+        </div>
+        <div class="font-light bg-transparent">
+          “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris.
+        </div>
+      </div>
+      <div class="flex flex-col lg:max-w-[30vw] font-bold p-4 m-2 rounded-lg">
+        <div class="text-2xl bg-transparent">
+          The Best Financial Accounting App Ever!
+        </div>
+        <div class="font-light bg-transparent">
+          “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+          In ultrices malesuada elit mauris.
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center m-8 md:m-32">
+      <img src="./assets/Frame.png" />
+    </div>
+    <div class="pl-32 flex-col lg:flex-row flex justify-between">
+      <div>
+        <div class="text-2xl font-extrabold flex m-4">
+          <img src="./assets/fire.png" class="mr-2" />Urify
+        </div>
+        <div class="font-semibold flex m-4">
+          <img src="./assets/message.png" class="mr-2 x" />Help@Frybix.com
+        </div>
+        <div class="font-semibold flex m-4">
+          <img src="./assets/call.png" class="mr-2 x" />+12433456789
+        </div>
+      </div>
+      <div class="m-4 ml-8">
+        <div class="font-extrabold text-4xl">Links</div>
+        <div class="font-semibold mt-4 x">Home</div>
+        <div class="font-semibold mt-4 x">About us</div>
+        <div class="font-semibold mt-4 x">Bookings</div>
+        <div class="font-semibold mt-4 x">Blogs</div>
+      </div>
+      <div class="m-4 ml-8">
+        <div class="font-extrabold text-4xl">Legal</div>
+        <div class="font-semibold mt-4 x">Terms of use</div>
+        <div class="font-semibold mt-4 x">Privacy Policy</div>
+        <div class="font-semibold mt-4 x">Cookie policy</div>
+      </div>
+      <div class="m-4 ml-8">
+        <div class="font-extrabold text-4xl">Product</div>
+        <div class="font-semibold mt-4 x">Take Tour</div>
+        <div class="font-semibold mt-4 x">Live Chat</div>
+        <div class="font-semibold mt-4 x">Reviews</div>
+      </div>
+      <div class="m-4 ml-8">
+        <div class="font-extrabold text-4xl">Newsletter</div>
+        <div class="font-semibold mt-4 x">Stay Upto date</div>
+        <div class="font-extralight x mt-4">Your- email</div>
+      </div>
+      <div class="download h-16 mr-32 mt-32 rounded-lg -ml-8">Subscribe</div>
+    </div>
+    <div class="w-full h-32 flex justify-center align-middle p-16">
+      Copyright 2022 uifry.com all rights reserved
+    </div>
+  </body>
+</html>
